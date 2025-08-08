@@ -155,3 +155,31 @@ def update_dashboard(selected_sex, selected_race, selected_stage):
 
 if _name_ == '_main_':
     app.run(debug=True)
+
+
+    
+    clinical-dashboard/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── model/
+│   └── data_loader.py
+│
+├── domain/
+│   ├── filters.py
+│   ├── metrics.py
+│   └── figures.py
+│
+├── view/
+│   └── layout.py
+│
+├── controller/
+│   └── callbacks.py
+│
+├── utils/
+│   └── config.py
+│
+└── assets/
+    └── custom.css  # Optional styling
